@@ -1,0 +1,6 @@
+C:\Users\fouco\Documents\tokaido\Basic\Basic\bin\Debug\Basic.exe.config
+C:\Users\fouco\Documents\tokaido\Basic\Basic\bin\Debug\Basic.exe
+C:\Users\fouco\Documents\tokaido\Basic\Basic\bin\Debug\Basic.pdb
+C:\Users\fouco\Documents\tokaido\Basic\Basic\obj\Debug\Basic.csprojResolveAssemblyReference.cache
+C:\Users\fouco\Documents\tokaido\Basic\Basic\obj\Debug\Basic.exe
+C:\Users\fouco\Documents\tokaido\Basic\Basic\obj\Debug\Basic.pdb
