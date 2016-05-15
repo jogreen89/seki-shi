@@ -1,0 +1,42 @@
+﻿@{
+    var db = Database.Open("ZuberBakery");
+    var selectQueryString = "SELECT * FROM Products ORDER BY Name";    
+}
+
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Zubernetes Bakery Products</title>
+        <style>
+            table, th, td {
+                border: solid 1px #bbbbbb;
+                border-collapse: collapse;
+                padding: 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Zubernetes Bakery Products</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Product</th>
+                    <th>Description</th>    
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach(var row in db.Query(selectQueryString)) {
+                    <tr>
+                        <td>@row.Id</td>
+                        <td>@row.Description</td>
+                        <td>@row.Price</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+</html>
